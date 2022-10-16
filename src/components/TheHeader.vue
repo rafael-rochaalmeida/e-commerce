@@ -26,6 +26,7 @@
 export default {
   name: "TheHeader",
 };
+console.log("Teste")
 </script>
 
 <style scoped>
