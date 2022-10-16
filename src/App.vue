@@ -1,15 +1,17 @@
 <template>
   <div id="App">
-    
-    <TheHeader />
-    <TheFooter />
+    <router-view>
+      <TheHome>
+        <TheHeader />
 
-    <TheHome />
+        <TheFooter />
+      </TheHome>
+    </router-view>
   </div>
 </template>
 
 <script>
-import TheHome from "@/components/TheHome.vue";
+import TheHome from "@/views/TheHome.vue";
 import TheHeader from "@/components/TheHeader.vue";
 import TheFooter from "@/components/TheFooter.vue";
 
@@ -23,9 +25,7 @@ export default {
 };
 </script>
 
-
 <style>
-
 * {
   margin: 0;
   padding: 0;
@@ -33,8 +33,7 @@ export default {
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: nome;
 }
-
 </style>
