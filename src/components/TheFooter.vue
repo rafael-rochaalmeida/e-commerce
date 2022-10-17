@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <footer>
     <h1>Footer</h1>
-  </div>
+  </footer>
 </template>
 
 <script>
@@ -10,4 +10,12 @@ export default {
 };
 </script>
 <style scoped>
+
+footer{
+  background: blue;
+  width: 100%;
+  height: 100px;
+  margin-top: 600px;
+}
+
 </style>

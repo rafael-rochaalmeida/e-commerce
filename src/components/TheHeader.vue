@@ -3,33 +3,27 @@
 
     <FontAwesome class="icon_mobile" icon="fa-solid fa-bag-shopping" />
   
-      <router-link to="/">
+      <!-- <router-link to=""> -->
         <img src="@/../public/assets/logo.png" alt="" />
-      </router-link>
+      <!-- </router-link> -->
     
-    <router-link class="router_link_icon_search" to="/">
+    <!-- <router-link class="router_link_icon_search" to=""> -->
       <input placeholder="Buscar" type="text" />
-
-      <FontAwesome
-        class="icon icon_search"
-        icon="fa-solid fa-magnifying-glass"
-        alt="Pesquisar"
-      />
-    </router-link>
+      <FontAwesome class="icon icon_search" icon="fa-solid fa-magnifying-glass" alt="Pesquisar"/>
+    <!-- </router-link> -->
 
     <div class="container_icons_menu">
-      <router-link to="/">
+      <!-- <router-link to=""> -->
         <FontAwesome class="icon" icon="fa-solid fa-user" />
-      </router-link>
+      <!-- </router-link> -->
 
-      <router-link to="/">
+      <!-- <router-link to=""> -->
         <FontAwesome class="icon" icon="fa-solid fa-cart-shopping" />
-      </router-link>
+      <!-- </router-link> -->
 
-      <router-link to="/">
+      <!-- <router-link to=""> -->
         <FontAwesome class="icon" icon="fa-solid fa-heart" />
-        
-      </router-link>
+      <!-- </router-link> -->
       
     </div>
 
