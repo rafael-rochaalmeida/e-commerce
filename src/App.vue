@@ -7,6 +7,7 @@
 <script>
 import TheHome from "@/views/TheHome.vue";
 
+
 export default {
   name: "App",
   components: {
