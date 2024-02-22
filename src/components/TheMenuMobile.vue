@@ -38,7 +38,8 @@ export default {
 
   methods: {
     toggleMenu: (event) => {
-      if (event.type === "touchstart") event.parentDefault();
+      if (event.type === "touchstart") event.preventDefault();
+      
 
       const nav_mobile = document.getElementById("nav_mobile");
       nav_mobile.classList.toggle("active");

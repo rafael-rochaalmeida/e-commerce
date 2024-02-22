@@ -1,38 +1,36 @@
 <template>
   <header>
     <nav>
-
       <TheMenuMobile />
 
       <!-- <router-link to=""> -->
-      <img src="@/../public/assets/logo.png" alt="" />
+        <img src="@/../public/assets/logo.png" alt="" />
       <!-- </router-link> -->
 
       <!-- <router-link class="router_link_icon_search" to=""> -->
-      <input placeholder="Buscar" type="text" />
-      <FontAwesome
-        class="icon icon_search"
-        icon="fa-solid fa-magnifying-glass"
-        alt="Pesquisar"
-      />
+        <input placeholder="Buscar" type="text" />
+        <FontAwesome
+          class="icon icon_search"
+          icon="fa-solid fa-magnifying-glass"
+          alt="Pesquisar"
+        />
       <!-- </router-link> -->
 
       <div class="container_icons_menu">
         <!-- <router-link to=""> -->
-        <FontAwesome class="icon" icon="fa-solid fa-user" />
+          <FontAwesome class="icon" icon="fa-solid fa-user" />
         <!-- </router-link> -->
 
         <!-- <router-link to=""> -->
-        <FontAwesome class="icon" icon="fa-solid fa-cart-shopping" />
+          <FontAwesome class="icon" icon="fa-solid fa-cart-shopping" />
         <!-- </router-link> -->
 
         <!-- <router-link to=""> -->
-        <FontAwesome class="icon" icon="fa-solid fa-heart" />
+          <FontAwesome class="icon" icon="fa-solid fa-heart" />
         <!-- </router-link> -->
       </div>
 
       <TheSacolaMobile />
-
     </nav>
   </header>
 </template>
@@ -55,11 +53,11 @@ export default {
 nav {
   height: 100px;
   width: 100%;
-  background: #333333;  
+  background: #333333;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 15px 5px rgba(0,0,5,0.8);
+  box-shadow: 0px 1px 20px 10px rgba(0, 0, 5, 0.8);
 }
 
 img {
@@ -71,10 +69,9 @@ img {
 .icon {
   height: 20px;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 0 0 50px;
 }
-
 
 input {
   padding: 8px;
@@ -93,7 +90,6 @@ input {
   margin: 0 0 0 10%;
 }
 
-
 /*INICIO MENU MOBILE */
 
 @media screen and (max-width: 980px) {
@@ -108,7 +104,7 @@ input {
 @media screen and (max-width: 830px) {
   nav {
     justify-content: space-between;
-    padding: 0 3rem;;
+    padding: 0 3rem;
   }
 
   input,
@@ -119,7 +115,6 @@ input {
   .router_link_icon_search {
     display: none;
   }
-
 
   img {
     margin: 0;

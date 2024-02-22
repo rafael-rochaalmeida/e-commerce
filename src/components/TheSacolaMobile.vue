@@ -27,7 +27,7 @@ export default {
 
   methods: {
     toggleMenu: (event) => {
-      if (event.type === "touchstart") event.parentDefault();
+      if (event.type === "touchstart") event.preventDefault();
 
       const nav_sacola = document.getElementById("nav_sacola");
       nav_sacola.classList.toggle("active");
@@ -74,6 +74,8 @@ a:hover {
   display: block;
   padding: 0.5rem;
 }
+
+
 
 #btn-mobile,
 #nav_sacola {
